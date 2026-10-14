@@ -1,0 +1,17 @@
+{
+  "name": "voltage-anello-ignition",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vite": "^8.2.0"
+  }
+}
